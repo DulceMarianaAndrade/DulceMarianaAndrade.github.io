@@ -240,25 +240,10 @@ a:hover, a:focus-visible{ border-bottom-color:currentColor; }
 .footer__muted{ color:var(--muted); font-size:0.82rem; margin:0; }
 
 /* BOTÓN DESCARGAR CV*/
-.cv-download { margin-top: 2rem;}
-
 .download-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.8rem 1.2rem;
-  border: 1px solid;
-  color: var(--accent);
-  text-decoration: none;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.85rem;
-  font-weight: 600;
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+  display: inline-flex; align-items: center; align-self: flex-start;
+  padding: 0.6rem 1.1rem; background: var(--ink); color: #FFF;
+  border-radius: 6px; font-family: var(--mono); font-size: 0.8rem;
+  font-weight: 500; border: none; transition: background 0.2s, transform 0.15s;
 }
-
-.download-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 4px 4px 0 ;
-}
+.download-btn:hover { background: var(--accent); color: #FFF; border-color: transparent; transform: translateY(-1px); }
