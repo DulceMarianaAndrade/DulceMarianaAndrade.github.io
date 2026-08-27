@@ -238,3 +238,27 @@ a:hover, a:focus-visible{ border-bottom-color:currentColor; }
 }
 .footer__name{ font-family:var(--display); font-weight:600; margin:0 0 0.2rem; }
 .footer__muted{ color:var(--muted); font-size:0.82rem; margin:0; }
+
+/* BOTÓN DESCARGAR CV*/
+.cv-download { margin-top: 2rem;}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid;
+  color: var(--accent);
+  text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0 ;
+}
