@@ -1,277 +1,650 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dulce Mariana Andrade Olvera — CV</title>
-<meta name="description" content="Currículum Vitae de Dulce Mariana Andrade Olvera, estudiante de Ingeniería en Sistemas Computacionales.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dulce Mariana Andrade Olvera — CV</title>
+
+    <meta name="description"
+        content="Currículum Vitae de Dulce Mariana Andrade Olvera, estudiante de Ingeniería en Sistemas Computacionales.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header class="topbar">
-  <div class="wrap topbar__inner">
-    <span class="topbar__id">DMAO</span>
-    <nav class="topbar__nav">
-      <a href="#perfil">Perfil</a>
-      <a href="#formacion">Formación</a>
-      <a href="#skills">Habilidades</a>
-      <a href="#experiencia">Experiencia</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  </div>
+    <div class="wrap topbar__inner">
+
+        <a href="#perfil" class="brand">Dulce Andrade</a>
+
+        <nav class="topbar__nav">
+            <a href="#perfil">Perfil</a>
+            <a href="#formacion">Formación</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#extra">Información</a>
+        </nav>
+
+    </div>
 </header>
+
 
 <main>
 
-  <!-- HERO -->
-  <section class="hero wrap" id="perfil">
-    <div class="hero__top">
-      <div class="hero__text">
-        <p class="eyebrow">// Ingeniería en Sistemas Computacionales - UAA</p>
-        <h1 class="hero__name">Dulce Mariana<br>Andrade Olvera</h1>
-        <p class="hero__role">Desarrollo web con la mirada puesta en redes, contenedores e infraestructura</p>
-      </div>
-      <img class="hero__avatar" src="assets/profile.jpg" alt="Foto de Dulce Mariana Andrade Olvera">
-    </div>
+    <!-- ================= PERFIL ================= -->
 
-    <ul class="status-row" aria-label="Áreas de interés">
-      <li class="status-chip"></span>Desarrollo&nbsp;Web</li>
-      <li class="status-chip"></span>Redes&nbsp;&amp;&nbsp;Docker</li>
-      <li class="status-chip"></span>Ciberseguridad</li>
-      <li class="status-chip"><span class="dot dot--learning"></span>Python&nbsp;-&nbsp;En&nbsp;curso</li>
-    </ul>
+    <section class="hero wrap" id="perfil">
 
-    <p class="hero__bio">
-      Estudiante de 7° semestre de Ingeniería en Sistemas Computacionales en la Universidad Autónoma de Aguascalientes.
-      Me interesa el desarrollo de aplicaciones web y, cada vez más, la administración de infraestructura: servidores Linux,
-      servicios críticos y contenedores con Docker. Actualmente realizo mi servicio social en el departamento de Redes,
-      donde combino ambos mundos. Aprendo rápido, trabajo bien en equipo y disfruto exponer y defender mis proyectos.
-    </p>
+        <div class="hero__intro">
 
-    <ul class="contact-row">
-      <li><a class="icon-link" href="mailto:marianaolvera912@gmail.com"> ✉ marianaolvera912@gmail.com</a></li>
-      <li><a class="icon-link" href="tel:+524961553864">✆ (+52) 496-155-38-64</a></li>
-      <li><a class="icon-link" href="https://github.com/DulceMarianaAndrade" target="_blank" rel="noopener">
-        <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-        GitHub
-      </a></li>
-      <li><a class="icon-link" href="https://www.linkedin.com/in/dulce-mariana-andrade-olvera-075871431/" target="_blank" rel="noopener">
-        <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M14.82 0H1.18C.53 0 0 .53 0 1.18v13.64C0 15.47.53 16 1.18 16h13.64c.65 0 1.18-.53 1.18-1.18V1.18C16 .53 15.47 0 14.82 0zM4.75 13.6H2.4V6.1h2.35v7.5zM3.57 5.1c-.75 0-1.36-.61-1.36-1.36S2.82 2.38 3.57 2.38s1.36.61 1.36 1.36S4.32 5.1 3.57 5.1zM13.6 13.6h-2.35V9.95c0-.87-.02-1.99-1.21-1.99-1.22 0-1.4.95-1.4 1.93v3.71H6.29V6.1h2.26v1.02h.03c.31-.59 1.08-1.21 2.22-1.21 2.38 0 2.8 1.56 2.8 3.6v4.09z"/></svg>
-        LinkedIn
-      </a></li>
-      <li>  ⟟ Aguascalientes, México</li>
-    </ul>
+            <div class="hero__text">
 
-    <a href="assets/Dulce_Mariana_Andrade_Olvera_CV.pdf" download class="download-btn">
-      <span>Descargar CV en PDF</span>
-    </a>
-  </section>
+                <p class="eyebrow">
+                    ESTUDIANTE DE INGENIERÍA EN SISTEMAS COMPUTACIONALES
+                </p>
 
-  <!-- FORMACIÓN -->
-  <section class="section wrap" id="formacion">
-    <h2 class="section__title"><span class="section__eyebrow">1</span>Formación académica</h2>
-    <div class="edu-card">
-      <div class="edu-card__main">
-        <h3>Ingeniería en Sistemas Computacionales</h3>
-        <p class="edu-card__school">Universidad Autónoma de Aguascalientes</p>
-      </div>
-      <div class="edu-card__period">
-        <span class="mono">2023 — actualidad</span>
-        <span class="edu-card__tag">7° semestre</span>
-      </div>
-    </div>
-  </section>
+                <h1>
+                    Dulce Mariana<br>
+                    <span>Andrade Olvera</span>
+                </h1>
 
-    <!-- HABILIDADES -->
-  <section class="section wrap" id="skills">
-    <h2 class="section__title"><span class="section__eyebrow">2</span>Habilidades técnicas</h2>
-    <div class="skills-list">
+                <p class="hero__role">
+                    Desarrollo web · Redes · Linux · Docker · Ciberseguridad
+                </p>
 
-      <div class="skill-group">
-        <h3 class="skill-group__title">Lenguajes</h3>
-        <ul class="tag-list">
-          <li class="tag">C</li><li class="tag">C++</li><li class="tag">C#</li>
-          <li class="tag">Java</li><li class="tag">JavaScript</li>
-          <li class="tag tag--learning">Python (en curso)</li>
-        </ul>
-      </div>
+            </div>
 
-      <div class="skill-group">
-        <h3 class="skill-group__title">Frontend &amp; Frameworks</h3>
-        <ul class="tag-list">
-          <li class="tag">HTML5</li><li class="tag">CSS3</li>
-          <li class="tag">React</li><li class="tag">Angular</li><li class="tag">Vite</li>
-        </ul>
-      </div>
+            <img
+                class="hero__avatar"
+                src="assets/profile.jpg"
+                alt="Foto de Dulce Mariana Andrade Olvera"
+            >
 
-      <div class="skill-group">
-        <h3 class="skill-group__title">Datos &amp; Low-Code</h3>
-        <ul class="tag-list">
-          <li class="tag">MySQL</li><li class="tag">Mendix Studio Pro</li>
-        </ul>
-      </div>
-
-      <div class="skill-group">
-        <h3 class="skill-group__title">Infraestructura &amp; Redes</h3>
-        <ul class="tag-list">
-          <li class="tag">Git</li><li class="tag">Docker</li>
-          <li class="tag">Contenedores</li><li class="tag">Máquinas virtuales</li>
-          <li class="tag">Linux (Servidores)</li><li class="tag">Hardening</li>
-        </ul>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- EXPERIENCIA -->
-  <section class="section wrap" id="experiencia">
-    <h2 class="section__title"><span class="section__eyebrow">3</span>Experiencia</h2>
-    <ol class="timeline">
-      <li class="timeline__item">
-        <div class="timeline__marker"><span class="dot dot--up"></span></div>
-        <div class="timeline__content">
-          <div class="timeline__top">
-            <h3>Servicio social — Departamento de Redes</h3>
-            <span class="mono">2026 — actualidad</span>
-          </div>
-          <p class="timeline__org">Universidad Autónoma de Aguascalientes</p>
-          <p>Proyecto de fortalecimiento de infraestructura Linux, servicios críticos y ciberseguridad: apoyo en el
-            aseguramiento de servidores, endurecimiento de servicios y buenas prácticas de seguridad en red.</p>
         </div>
-      </li>
-      <li class="timeline__item">
-        <div class="timeline__marker"><span class="dot dot--neutral"></span></div>
-        <div class="timeline__content">
-          <div class="timeline__top">
-            <h3>Asesora de ventas y soporte técnico</h3>
-            <span class="mono">2022 — 2023</span>
-          </div>
-          <p class="timeline__org">CellExpress — venta y reparación de celulares</p>
-          <p>Atención al cliente y ventas, colocación de micas y fundas, cambio de pantallas y reparaciones menores
-            de equipos móviles. Desarrollé comunicación efectiva, resolución de problemas y trabajo bajo presión.</p>
+
+
+        <div class="hero__line"></div>
+
+
+        <div class="hero__content">
+
+            <div class="hero__bio">
+
+                <p>
+                    Estudiante de 7° semestre de Ingeniería en Sistemas Computacionales
+                    en la Universidad Autónoma de Aguascalientes. Me interesa el
+                    desarrollo de aplicaciones web y la administración de infraestructura,
+                    especialmente servidores Linux, servicios críticos y contenedores
+                    con Docker.
+                </p>
+
+                <p>
+                    Actualmente realizo mi servicio social en el departamento de Redes,
+                    donde combino desarrollo, infraestructura y seguridad. Me caracterizo
+                    por aprender rápidamente, trabajar en equipo y comunicar ideas
+                    técnicas de manera clara.
+                </p>
+
+            </div>
+
+
+            <div class="hero__contact">
+
+                <a href="mailto:marianaolvera912@gmail.com">
+                    ✉ marianaolvera912@gmail.com
+                </a>
+
+                <a href="tel:+524961553864">
+                    ✆ (+52) 496-155-38-64
+                </a>
+
+                <a
+                    class="icon-link"
+                    href="https://github.com/DulceMarianaAndrade"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                    GitHub 
+                </a>
+
+                <a
+                    class="icon-link"
+                    href="https://www.linkedin.com/in/dulce-mariana-andrade-olvera-075871431/"
+                    target="_blank"
+                    rel="noopener"
+                >
+                <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M14.82 0H1.18C.53 0 0 .53 0 1.18v13.64C0 15.47.53 16 1.18 16h13.64c.65 0 1.18-.53 1.18-1.18V1.18C16 .53 15.47 0 14.82 0zM4.75 13.6H2.4V6.1h2.35v7.5zM3.57 5.1c-.75 0-1.36-.61-1.36-1.36S2.82 2.38 3.57 2.38s1.36.61 1.36 1.36S4.32 5.1 3.57 5.1zM13.6 13.6h-2.35V9.95c0-.87-.02-1.99-1.21-1.99-1.22 0-1.4.95-1.4 1.93v3.71H6.29V6.1h2.26v1.02h.03c.31-.59 1.08-1.21 2.22-1.21 2.38 0 2.8 1.56 2.8 3.6v4.09z"/></svg>
+                    LinkedIn 
+                </a>
+
+                <span>⟟ Aguascalientes, México</span>
+
+            </div>
+
         </div>
-      </li>
-    </ol>
-  </section>
 
-  <!-- PROYECTOS -->
-  <section class="section wrap" id="proyectos">
-    <h2 class="section__title"><span class="section__eyebrow">4</span>Proyectos</h2>
-    <div class="project-grid">
 
-      <article class="project-card">
-        <h3>DevProfile — Generador de CV en PDF</h3>
-        <p>Aplicación para crear currículums en PDF de forma dinámica. Proyecto final desarrollado en equipo de 4 personas.</p>
-        <ul class="tag-list tag-list--sm">
-          <li class="tag">React</li><li class="tag">Vite</li><li class="tag">Trabajo en equipo</li>
-        </ul>
-        <a class="project-card__link" href="https://github.com/DulceMarianaAndrade/devprofile" target="_blank" rel="noopener">Ver repositorio ↗</a>
-      </article>
+        <a
+            href="assets/Dulce_Mariana_Andrade_Olvera_CV.pdf"
+            download
+            class="download-btn"
+        >
+            Descargar CV en PDF
+        </a>
 
-      <article class="project-card">
-        <h3>MiAulaDigital</h3>
-        <p>Plataforma web pensada para mejorar la comunicación entre padres de familia y docentes de una escuela.</p>
-        <ul class="tag-list tag-list--sm">
-          <li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">JavaScript</li>
-        </ul>
-        <a class="project-card__link" href="https://github.com/DelgadoLia/MiAulaDigital-app.git" target="_blank" rel="noopener">Ver repositorio ↗</a>
-      </article>
+    </section>
 
-      <article class="project-card">
-        <h3>SoundSpace — E-commerce de música</h3>
-        <p>Tienda en línea de discos de distintos géneros musicales, con registro, inicio de sesión y flujo de compra.</p>
-        <ul class="tag-list tag-list--sm">
-          <li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">JavaScript</li>
-        </ul>
-        <a class="project-card__link" href="https://github.com/DelgadoLia/Ecommerce-API-SoundSpace.git" target="_blank" rel="noopener">Ver repositorio ↗</a>
-      </article>
 
-      <article class="project-card">
-        <h3>Asteroides</h3>
-        <p>Recreación del clásico juego arcade de naves y asteroides, construido desde cero para practicar lógica de juego.</p>
-        <ul class="tag-list tag-list--sm">
-          <li class="tag">JavaScript</li>
-        </ul>
-        <a class="project-card__link" href="https://github.com/DulceMarianaAndrade/Proyecto-Final-Asteroides-.git" target="_blank" rel="noopener">Ver repositorio ↗</a>
-      </article>
 
-      <article class="project-card">
-        <h3>Pac-Man</h3>
-        <p>Recreación del clásico juego de laberinto y fantasmas, enfocada en estructuras de datos y control de colisiones.</p>
-        <ul class="tag-list tag-list--sm">
-          <li class="tag">C++</li>
-        </ul>
-      </article>
+    <!-- ================= FORMACIÓN ================= -->
 
-      <article class="project-card">
-        <h3>Proyectos Mendix</h3>
-        <p>Serie de aplicaciones desarrolladas con la plataforma low-code Mendix, evidencia de certificación.</p>
-        <ul class="tag-list tag-list--sm">
-          <li class="tag">Mendix</li><li class="tag">Low-code</li>
-        </ul>
-        <a class="project-card__link" href="https://github.com/DulceMarianaAndrade/proyectosMendix-mpk.git" target="_blank" rel="noopener">Ver repositorio ↗</a>
-      </article>
+    <section class="section wrap" id="formacion">
 
-    </div>
-  </section>
-
-  <!-- CERTIFICACIONES / IDIOMAS / SOFT SKILLS -->
-  <section class="section wrap" id="extra">
-    <div class="extra-grid">
-
-      <div>
-        <h2 class="section__title small"><span class="section__eyebrow">5</span>Certificaciones</h2>
-        <div class="edu-card edu-card--compact">
-          <div class="edu-card__main">
-            <h3>Mendix — Desarrollo low-code</h3>
-            <a class="project-card__link" href="https://github.com/DulceMarianaAndrade/proyectosMendix-mpk.git" target="_blank" rel="noopener">Ver evidencia ↗</a>
-          </div>
+        <div class="section-heading">
+            <span>01</span>
+            <h2>Formación</h2>
         </div>
-      </div>
 
-      <div>
-        <h2 class="section__title small"><span class="section__eyebrow">6</span>Idiomas</h2>
-        <ul class="tag-list">
-          <li class="tag">Español - nativo</li>
-        </ul>
-      </div>
+        <div class="education">
 
-    </div>
+            <div>
+                <h3>Ingeniería en Sistemas Computacionales</h3>
 
-    <h2 class="section__title" style="margin-top:2.75rem"><span class="section__eyebrow">7</span>Habilidades blandas</h2>
-    <ul class="soft-list">
-      <li><strong>Trabajo en equipo y colaboración:</strong> Facilidad para integrarme en equipos multidisciplinarios y proyectos colaborativos.</li>
-      <li><strong>Comunicación efectiva y exposición:</strong> Habilidad para exponer ideas, defender decisiones técnicas y presentar proyectos.</li>
-      <li><strong>Adaptabilidad y aprendizaje autónomo:</strong> Capacidad para asimilar rápidamente nuevas tecnologías y entornos de trabajo.</li>
-    </ul>
-  </section>
+                <p>
+                    Universidad Autónoma de Aguascalientes
+                </p>
+            </div>
+
+            <div class="education__date">
+                <strong>2023 — actualidad</strong>
+                <span>7° semestre</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= HABILIDADES ================= -->
+
+    <section class="section section--skills" id="skills">
+
+        <div class="wrap">
+
+            <div class="section-heading">
+                <span>02</span>
+                <h2>Habilidades</h2>
+            </div>
+
+
+            <div class="skills">
+
+                <div class="skill">
+
+                    <h3>Lenguajes</h3>
+
+                    <p>
+                        C · C++ · C# · Java · JavaScript ·
+                        <span class="learning">Python (en curso)</span>
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>Frontend & Frameworks</h3>
+
+                    <p>
+                        HTML5 · CSS3 · React · Angular · Vite
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>Datos & Low-Code</h3>
+
+                    <p>
+                        MySQL · Mendix Studio Pro
+                    </p>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <h3>Infraestructura & Redes</h3>
+
+                    <p>
+                        Git · Docker · Contenedores · Máquinas virtuales ·
+                        Linux · Hardening
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= EXPERIENCIA ================= -->
+
+    <section class="section wrap" id="experiencia">
+
+        <div class="section-heading">
+            <span>03</span>
+            <h2>Experiencia</h2>
+        </div>
+
+
+        <div class="experience">
+
+            <article class="experience-item">
+
+                <div class="experience-date">
+                    2026 — actualidad
+                </div>
+
+                <div>
+
+                    <h3>
+                        Servicio social — Departamento de Redes
+                    </h3>
+
+                    <p class="company">
+                        Universidad Autónoma de Aguascalientes
+                    </p>
+
+                    <p>
+                        Proyecto de fortalecimiento de infraestructura Linux,
+                        servicios críticos y ciberseguridad. Apoyo en el
+                        aseguramiento de servidores, endurecimiento de servicios
+                        y aplicación de buenas prácticas de seguridad en red.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="experience-item">
+
+                <div class="experience-date">
+                    2022 — 2023
+                </div>
+
+                <div>
+
+                    <h3>
+                        Asesora de ventas y soporte técnico
+                    </h3>
+
+                    <p class="company">
+                        CellExpress — venta y reparación de celulares
+                    </p>
+
+                    <p>
+                        Atención al cliente y ventas, colocación de micas y fundas,
+                        cambio de pantallas y reparaciones menores de equipos
+                        móviles. Desarrollo de habilidades de comunicación,
+                        resolución de problemas y trabajo bajo presión.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PROYECTOS ================= -->
+
+    <section class="section wrap" id="proyectos">
+
+        <div class="section-heading">
+            <span>04</span>
+            <h2>Proyectos seleccionados</h2>
+        </div>
+
+
+        <div class="projects">
+
+            <article class="project">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        DevProfile — Generador de CV en PDF
+                    </h3>
+
+                    <p>
+                        Aplicación para crear currículums en PDF de forma dinámica.
+                        Proyecto final desarrollado en equipo de cuatro personas.
+                    </p>
+
+                    <span class="project-tech">
+                        React · Vite · Trabajo en equipo
+                    </span>
+
+                    <a
+                        href="https://github.com/DulceMarianaAndrade/devprofile"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Ver repositorio ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        MiAulaDigital
+                    </h3>
+
+                    <p>
+                        Plataforma web pensada para mejorar la comunicación entre
+                        padres de familia y docentes de una escuela.
+                    </p>
+
+                    <span class="project-tech">
+                        HTML · CSS · JavaScript
+                    </span>
+
+                    <a
+                        href="https://github.com/DelgadoLia/MiAulaDigital-app.git"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Ver repositorio ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        SoundSpace — E-commerce de música
+                    </h3>
+
+                    <p>
+                        Tienda en línea de discos de distintos géneros musicales,
+                        con registro, inicio de sesión y flujo de compra.
+                    </p>
+
+                    <span class="project-tech">
+                        HTML · CSS · JavaScript
+                    </span>
+
+                    <a
+                        href="https://github.com/DelgadoLia/Ecommerce-API-SoundSpace.git"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Ver repositorio ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project">
+
+                <div class="project-number">
+                    04
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Asteroides
+                    </h3>
+
+                    <p>
+                        Recreación del clásico juego arcade de naves y asteroides,
+                        construido desde cero para practicar lógica de juego.
+                    </p>
+
+                    <span class="project-tech">
+                        JavaScript
+                    </span>
+
+                    <a
+                        href="https://github.com/DulceMarianaAndrade/Proyecto-Final-Asteroides-.git"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Ver repositorio ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project">
+
+                <div class="project-number">
+                    05
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Pac-Man
+                    </h3>
+
+                    <p>
+                        Recreación del clásico juego de laberinto y fantasmas,
+                        enfocada en estructuras de datos y control de colisiones.
+                    </p>
+
+                    <span class="project-tech">
+                        C++
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <article class="project">
+
+                <div class="project-number">
+                    06
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Proyectos Mendix
+                    </h3>
+
+                    <p>
+                        Serie de aplicaciones desarrolladas con la plataforma
+                        low-code Mendix como evidencia de aprendizaje y
+                        certificación.
+                    </p>
+
+                    <span class="project-tech">
+                        Mendix · Low-code
+                    </span>
+
+                    <a
+                        href="https://github.com/DulceMarianaAndrade/proyectosMendix-mpk.git"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Ver repositorio ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= INFORMACIÓN ADICIONAL ================= -->
+
+    <section class="section wrap" id="extra">
+
+        <div class="section-heading">
+            <span>05</span>
+            <h2>Información adicional</h2>
+        </div>
+
+
+        <div class="additional">
+
+            <div>
+
+                <h3>Certificaciones</h3>
+
+                <p>
+                    <strong>Mendix</strong> — Desarrollo low-code
+                </p>
+
+                <a
+                    href="https://github.com/DulceMarianaAndrade/proyectosMendix-mpk.git"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Ver evidencia ↗
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Idiomas</h3>
+
+                <p>
+                    Español — Nativo
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Habilidades blandas</h3>
+
+                <p>
+                    Trabajo en equipo · Comunicación efectiva ·
+                    Exposición y presentación de proyectos ·
+                    Adaptabilidad · Aprendizaje autónomo
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
 
 </main>
 
+
+
+<!-- ================= FOOTER ================= -->
+
 <footer class="footer" id="contacto">
-  <div class="wrap footer__inner">
-    <div>
-      <p class="footer__name">Dulce Mariana Andrade Olvera</p>
-      <p class="mono footer__muted">Ingeniería en Sistemas Computacionales · UAA</p>
+
+    <div class="wrap footer__inner">
+
+        <div>
+
+            <p class="footer__name">
+                Dulce Mariana Andrade Olvera
+            </p>
+
+            <p class="footer__career">
+                Ingeniería en Sistemas Computacionales · UAA
+            </p>
+
+        </div>
+
+
+        <div class="footer__links">
+
+            <a href="mailto:marianaolvera912@gmail.com">
+                ✉ marianaolvera912@gmail.com
+            </a>
+
+            <a href="tel:+524961553864">
+                ✆ (+52) 496-155-38-64
+            </a>
+
+            <a
+                class="icon-link"
+                href="https://github.com/DulceMarianaAndrade"
+                target="_blank"
+                rel="noopener"
+            >
+            <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                GitHub 
+            </a>
+
+            <a
+                class="icon-link"
+                href="https://www.linkedin.com/in/dulce-mariana-andrade-olvera-075871431/"
+                target="_blank"
+                rel="noopener"
+            >
+            <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M14.82 0H1.18C.53 0 0 .53 0 1.18v13.64C0 15.47.53 16 1.18 16h13.64c.65 0 1.18-.53 1.18-1.18V1.18C16 .53 15.47 0 14.82 0zM4.75 13.6H2.4V6.1h2.35v7.5zM3.57 5.1c-.75 0-1.36-.61-1.36-1.36S2.82 2.38 3.57 2.38s1.36.61 1.36 1.36S4.32 5.1 3.57 5.1zM13.6 13.6h-2.35V9.95c0-.87-.02-1.99-1.21-1.99-1.22 0-1.4.95-1.4 1.93v3.71H6.29V6.1h2.26v1.02h.03c.31-.59 1.08-1.21 2.22-1.21 2.38 0 2.8 1.56 2.8 3.6v4.09z"/></svg>
+                LinkedIn
+            </a>
+
+        </div>
+
     </div>
-    <ul class="contact-row">
-      <li><a href="mailto:marianaolvera912@gmail.com">marianaolvera912@gmail.com</a></li>
-      <li><a href="tel:+524961553864">(+52) 496-155-38-64</a></li>
-      <li><a class="icon-link" href="https://github.com/DulceMarianaAndrade" target="_blank" rel="noopener">
-        <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-        GitHub
-      </a></li>
-      <li><a class="icon-link" href="https://www.linkedin.com/in/dulce-mariana-andrade-olvera-075871431/" target="_blank" rel="noopener">
-        <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M14.82 0H1.18C.53 0 0 .53 0 1.18v13.64C0 15.47.53 16 1.18 16h13.64c.65 0 1.18-.53 1.18-1.18V1.18C16 .53 15.47 0 14.82 0zM4.75 13.6H2.4V6.1h2.35v7.5zM3.57 5.1c-.75 0-1.36-.61-1.36-1.36S2.82 2.38 3.57 2.38s1.36.61 1.36 1.36S4.32 5.1 3.57 5.1zM13.6 13.6h-2.35V9.95c0-.87-.02-1.99-1.21-1.99-1.22 0-1.4.95-1.4 1.93v3.71H6.29V6.1h2.26v1.02h.03c.31-.59 1.08-1.21 2.22-1.21 2.38 0 2.8 1.56 2.8 3.6v4.09z"/></svg>
-        LinkedIn
-      </a></li>
-    </ul>
-  </div>
+
 </footer>
 
 </body>
